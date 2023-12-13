@@ -4,10 +4,90 @@
     <title>Brian Luu</title>
     <meta charset="utf-8">
     <meta name="author" content="Brian Luu">
+    <style>
+      body{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #004643;
+        display: flex;
+        justify-content: center;
+      }
+      .name{
+        color: #fffffe;
+        display: flex;
+        justify-content: center;
+      }
+      .social-icons{
+        display: flex;
+        justify-content: space-around;
+      }
+      .social-icons a{
+        color: #fffffe;
+        text-decoration: none;
+      }
+      .link{
+        background-color: #f9bc60;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+      .link a{
+        color: #001e1d;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+      .banner{
+        display: flex;
+        justify-content: center;
+      }
+      .banner-image{
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+      .thumbnail{
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+      .items{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+    </style>
   </head>
 
   <body>
-    <img src="/thumbnails/IMG_4592.png" alt="Brian Luu Bio's pic">
+    <div class="items"
+      <div class="banner">
+        <img class="thumbnail" src="/thumbnails/IMG_4592.png" alt="Brian Luu Bio's pic" class="banner-image>
+      </div>
+      <div class="name">
+        Brian Luu
+      </div>
+      <div class="social-icons">
+        <a href="https://github.com/tluu5" target="github">Github</a>
+        <a href="https://www.linkedin.com/in/brian-luu-237883180/" target="linkedin">LinkedIn</a>
+        <a href="https://www.facebook.com/profile.php?id=100007279458720" target="facebook">Facebook</a>
+        <a href="https://www.netflix.com" target="netflix">Netflix</a>
+        <a href="https://www.youtube.com/" target="youtube">Youtube</a>
+      </div>
+      <div class="link">
+        <img class="thumbnail src="/thumbnails/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png" alt="thumbnail1"> <a href="http://paulgraham.com/startupideas.html" target="_blank">How to Get Startup Ideas - Paul Graham</a>
+      </div>
+      <div class="link">
+        <img class="thumbnail src="/thumbnails/fabio-santaniello-bruun-Y6tGu-OH8lA-unsplash.jpg" alt="thumbnail2"> <a href="https://practicaltypography.com/typography-in-ten-minutes.html" target="_blank">Typography in ten minutes - Matthew Butterick</a>
+      </div>
+      <div class="link">
+        <img class="thumbnail src="/thumbnails/071210_r16884_p646.jpg" alt="thumbnail3"> <a href="https://www.newyorker.com/magazine/2007/12/10/the-checklist/" target="_blank">A Life-Saving Checklist - The New Yorker</a>
+      </div>
+    </div>
   </body>
 
 </html>
